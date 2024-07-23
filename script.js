@@ -18,7 +18,7 @@ const container = document.getElementById('container');
 
         function removeColor(element) {
             setTimeout(() => {
-                element.style.backgroundColor =  "#1D1D1D";
+                element.style.backgroundColor =  "rgb(29, 29, 29)";
             }, 1000);
         }
 
