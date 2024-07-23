@@ -3,16 +3,16 @@
             justify-content: center;
             align-items: center;
             height: 100vh;
-            margin: 20px;
             background-color: black;
         }
         .container {
             display: grid;
-            grid-template-columns: repeat(20, 1fr);
+            grid-template-columns: repeat(28, 1fr);
             gap: 2px;
-            width: 800px;
-            height: 800px;
-			padding:20px;
+            width: 100vmin;
+            height: 100vmin;
+            max-width: 800px;
+            max-height: 800px;
         }
         .square {
             background-color: rgb(29, 29, 29);
