@@ -15,6 +15,7 @@
             max-height: 800px;
         }
         .square {
+			border-radius : 2px;
             background-color: rgb(29, 29, 29);
             transition: background-color 0.3s ease-in, background-color 1s ease-out;
         }
