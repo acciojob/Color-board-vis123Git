@@ -9,7 +9,6 @@
             display: grid;
             grid-template-columns: repeat(28, 3fr);
 			grid-template-rows: repeat(28, 1fr);
-
             gap: 2px;
             width: 100vmin;
             height: 100vmin;
@@ -18,6 +17,6 @@
         }
         .square {
 			border-radius : 2px;
-            background-color: rgb(29, 29, 29);
+            /* background-color: rgb(29, 29, 29); */
             transition: background-color 0.3s ease-in, background-color 1s ease-out;
         }
