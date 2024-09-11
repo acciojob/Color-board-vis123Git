@@ -18,7 +18,7 @@ function setColor(element) {
 }
 
 function removeColor(element) {
-    element.style.transition = 'background-color 1s ease';
+    element.style.transition = 'background-color 1s';
     element.style.backgroundColor = 'rgb(29, 29, 29)';
 }
 
